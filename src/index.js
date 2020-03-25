@@ -1,5 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import { Comment, comment } from './Commnet';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+<Comment 
+  text={comment.text}
+  author={comment.author}
+/>, 
+document.getElementById('root')
+);
+
+
+
